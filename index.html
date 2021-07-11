@@ -1,0 +1,122 @@
+ 
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>SIGN UP FORM</title>
+    <style>
+        body { 
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        background: teal;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        place-items: center;
+        overflow: hidden;
+        font-family: poppins;
+         }
+
+         .container {
+         position: relative;
+         width: 262.5px;
+         height: 375px;
+         border-radius: 10px;
+         padding: 10px;
+         box-sizing: border box;
+         background: #ecf0f3
+         box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px
+
+         }
+
+        h1 {
+          margin-top: 10px;
+          font-weight: 900;
+          font-size: 1.8rem;
+          color: white;
+          letter-spacing: 1px;
+          position: absolute;
+          top: 5;
+          left: 70;
+        }
+        
+
+        .inputs {
+          text-align: center;
+          margin-top: 30px;
+        }
+
+        label, input, button {
+          display: block;
+          width: 100%;
+          padding: 0;
+          border: none;
+          box-sizing: border-box;
+        }
+
+        input::placeholder {
+          color: gray;
+        }
+
+        input {
+            background: #ecf0f3;
+            padding: 10px;
+            padding-left: 20px;
+            height: 25px;
+            font-size: 14px;
+            border-radius: 40px;
+            box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white
+        }
+
+        button {
+            margin-top: 20px;
+            background: #1DA1F2;
+            height: 40px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 900;
+            box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+            transition: 0.5s;
+           }
+
+        label {
+            margin-bottom: 4px;
+        }
+
+        button:hover {
+            box-shadow: none;
+        }
+        </style>
+</head>
+<body>
+  <form>
+        <h1>SIGN UP FORM</h1>
+        <div class="container">
+        <div class="inputs">
+        <label><input type="text" name="name" placeholder="NAME"></label><br>
+        <label><input type="email" name="email" id="email" placeholder="EMAIL" id=></label><br/>
+        <label><input type="address"name="address" id="address" placeholder="ADDRESS"></label><br/>
+        <label><input type="tel" name="phone no."id="phone no." placeholder="PHONE NO."></label><br/>
+        <label>HARDWARE<input type="radio" name="wings"id="hardware"> SOFTWARE<input type="radio" name="wings" id="software"> DESIGN<input type="radio" name="wings" id="design"></label><br/>
+        <label>CHOOSE A SKILL:
+            <select name="skill" id="skill">
+                <option value="">--Select a skill--</option>
+                <option value="HTML">HTML</option>
+                <option valUe="CSS">CSS</option>
+                <option value="Javascript">Javascript</option>
+            </select>
+        </label><br>
+        <label><input type="password" name="password" placeholder="PASSWORD"></label><br/>
+        <label><input type="password" name="password" placeholder="CONFIRM PASSWORD"></label><b/r>
+        <button type="submit">SEND</button> 
+      </div> 
+    </div>  
+    </form>
+    
+</body>>
+
+</html>
